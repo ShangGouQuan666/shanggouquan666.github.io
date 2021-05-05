@@ -396,10 +396,12 @@ footer {
 		padding-right: 0;
 	}
 }
+
 @media (max-width:360px) {
-	div.zerobg{
+	div.zerobg {
 		width: 120%;
 	}
+
 	div.input>div.readerBooks>a>img {
 		width: 8rem;
 		margin-top: 0;
