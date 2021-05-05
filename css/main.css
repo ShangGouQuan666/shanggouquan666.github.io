@@ -1,0 +1,44 @@
+/*引入样式*/
+@import url("normalize.css");
+
+/*公用样式*/
+* {
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
+	border: none;
+}
+
+body {
+	background: url(../imagesUser/ZaoMiao.png) no-repeat;
+	background-size: 100%;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: -1;
+
+	width: 100%;
+	font-family: -app-stytem, Helvetica, sans-serif;
+	min-width: 420px;
+	max-width: 1920px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666666;
+	margin: 0 auto;
+	padding-bottom: env(safe-area-insert-bottom);
+/* 	position: relative; */
+}
