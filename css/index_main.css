@@ -397,13 +397,18 @@ footer {
 	}
 }
 
-@media (max-width:375px) {
+@media (max-width:480px) {
 	div.zerobg {
-		width: 112%;
+		width: 100%;
+		padding-left: 2rem;
 	}
 
-	div.input>div.readerBooks>a>img {
-		width: 8rem;
-		margin-top: 0;
+	p#readerOne,
+	p#readerBottom {
+		opacity: 0;
+	}
+
+	footer {
+		width: 100%;
 	}
 }
