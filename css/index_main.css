@@ -426,3 +426,35 @@ footer {
 		padding: 0;
 	}
 }
+@media (max-width:390px){
+	div.main_top{
+		margin-top: 50%;
+	}
+	div.main_bottom{
+		/* opacity: 0; */
+		margin-top: 10%;
+		width: 80%;
+		border-radius: 10%;
+	}
+	div.main_bottom > p{
+		font-size: 1rem;
+	}
+/* 	div.headpic{
+		width: 5rem;
+		height: 5rem;
+	} */
+	div.zerobg{
+		width: 108%;
+		padding-left: 0;
+		padding-top: 30%;
+	}
+	div.input>div.readerBooks>a>img{
+		width: 9.5rem;
+	}
+	footer{
+		width: 100.2%;
+	}
+	/* div.readerBooks{
+		text-align: justify;
+	} */
+}

@@ -18,7 +18,12 @@
 			<ul class="top_right">
 				<li><a href="">菜单</a></li>
 				<li><a href="">搜索</a></li>
-				<li><a href="">登录</a></li>
+				<li><a href="" id="btn">联系</a>
+					<div id="MyQQ" >
+						<img src="imagesUser/QQ二维码.jpg" >
+					</div>
+					
+				</li>
 			</ul>
 		</div>
 		<div class="mainCenter">
@@ -78,4 +83,15 @@
 		</footer>
 		
 	</body>
+	<script type="text/javascript">
+		var btns = document.getElementById("btn");
+		var divs = document.getElementById("MyQQ");
+				
+		btns.onmouseover = function () {
+			divs.style.display = "block";
+		}
+		btns.onmouseout = function () {
+			divs.style.display = "none";
+		}
+	</script>
 </html>

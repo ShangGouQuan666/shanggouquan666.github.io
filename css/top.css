@@ -68,9 +68,29 @@ ul.top_right>li>a {
 
 ul.top_right>li>a:hover {
 	color: white;
-
 }
-
+ul.top_right>li:nth-last-child(1){
+	display: block;
+	/* background-color: red; */
+	position: relative;
+}
+div#MyQQ{
+	width: 20rem;
+	height: 20rem;
+	position: absolute;
+	right: 0rem;
+	top: 5rem;
+	display: none;
+}
+/* 
+	ul.top_right>li:nth-last-child(1)>a:hover{
+	opacity: 1;
+} 
+*/
+div#MyQQ>img{
+	width: 20rem;
+	height: 20rem;
+}
 div.top>ul>li:hover {
 	background-color: #333333;
 
