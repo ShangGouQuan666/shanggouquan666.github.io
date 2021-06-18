@@ -90,8 +90,8 @@ div#MyQQ{
 div#MyQQ>img{
 	width: 20rem;
 	height: 20rem;
+	opacity: 2;
 }
 div.top>ul>li:hover {
 	background-color: #333333;
-
 }
