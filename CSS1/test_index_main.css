@@ -638,7 +638,23 @@ footer{
 		
 	}
 }
-@media (max-width:480px){
+@media (max-width:450px){
+	.readerBooks > .BooksOne{
+		width: 95%;
+		position: absolute;
+		top: 1860px;	
+		
+	}
+}
+@media (max-width:460px){
+	.readerBooks > .BooksOne{
+		width: 95%;
+		position: absolute;
+		top: 1890px;	
+		
+	}
+}
+@media (max-width:420px){
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
