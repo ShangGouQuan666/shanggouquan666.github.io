@@ -572,7 +572,72 @@ footer{
 	text-align: center;
 	padding: 3%;
 }
-
+@media (max-width:480px){
+	body{
+		overflow-x: hidden;
+	}
+	.main_top{
+		position: absolute;
+		left: 30%;
+		top: 20%;
+	}
+	div.main_bottom{
+		opacity: 0;
+	}
+	div.one:hover span.name {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 12rem;
+	}
+	.zerobg{
+		width: 100%;
+		margin-top: 80%;
+		border-radius: 150px 150px 0 0 ;
+		padding: 1.8%;
+		padding-top: 20%;
+	}
+	.link {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+	}
+	.link > p{
+		font-size: 20px;
+		margin-left: 10%;
+	}
+	
+	.linkPic{
+		margin-bottom: 5%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.linkPic > li{
+		
+		width: 100%;
+		
+	}
+	.linkPic > li > a > div > img{
+		width: 100%;
+	}
+	.input{
+		width: 90%;
+	}
+	.readerBooks{
+		height: 420px;
+	}
+	.readerBooks > a >img{
+		width: 100%;
+		
+	}
+	.readerBooks > .BooksOne{
+		width: 95%;
+		position: absolute;
+		top: 1960px;	
+		
+	}
+}
 @media (max-width:375px) {
 	body{
 		overflow-x: hidden;
