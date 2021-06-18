@@ -652,7 +652,7 @@ footer{
 		background-size: 105%;
 		background-position: top center;
 		background-attachment: fixed;
-		background-size: cover;
+		/* background-size: cover; */
 		z-index: -1;
 	}
 	.main_top{
@@ -672,7 +672,7 @@ footer{
 		background-size: 105%;
 		background-position: top center;
 		background-attachment: fixed;
-		background-size: cover;
+		/* background-size: cover; */
 		z-index: -1;
 	}
 	.main_top{
@@ -692,7 +692,7 @@ footer{
 		background-size: 105%;
 		background-position: top center;
 		background-attachment: fixed;
-		background-size: cover;
+		/* background-size: cover; */
 		z-index: -1;
 	}
 	.main_top{
@@ -712,7 +712,7 @@ footer{
 		background-size: 105%;
 		background-position: top center;
 		background-attachment: fixed;
-		background-size: cover;
+		/* background-size: cover; */
 		z-index: -1;
 	}
 	.main_top{
