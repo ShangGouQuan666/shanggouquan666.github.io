@@ -16,7 +16,7 @@ div.top:hover {
 div.top>h1 {
 	margin-left: 1rem;
 	float: left;
-	line-height: 2rem;
+	line-height: 4rem;
 	color: #666666;
 	transition: color 0.5s;
 }

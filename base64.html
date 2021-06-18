@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title></title>
+		<style type="text/css">
+			.select{
+				width: 300px;
+				border-radius: 10px;
+				padding: 5px;
+				border: 1px solid #333;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="file" >
+		<br>
+		<img src="" alt="">
+		<br>
+		<span id="">
+
+		</span>
+		<br>
+		<time></time>
+	</body>
+	<script type="text/javascript">
+		// (Function(){
+		// 	var box = D.querySelector();
+		// })(document)
+		
+		function $(ele){
+			return document.querySelector(ele);
+		}
+		$('input').addEventListener('change',function(){
+			//console.log('good morning');
+			var file = $('input').files[0];
+			var reader = new FileReader();
+			//reader.readAsDataURL(Blob);
+			reader.readAsDataURL(file);
+			reader.addEventListener('load',function(){
+				console.log(reader.result);
+				$('img').src = reader.result;
+				
+				$('img').className = "select";
+				
+				$('span').innerHTML = '文件容量：'+(file.size/1000000).toFixed(2)+'MB';
+				
+				//$('time').innerHTML = '修改时间：'+file.lastModifiedDate;
+				//带时区的时间（王晖老师说，不是人看的玩意）
+				$('time').innerHTML = '修改时间：'+file.lastModifiedDate.toLocaleDateString();
+			})
+			
+			
+			console.log(reader.result);
+			//Blob = Binary Large Object = 大文件！
+			// dconsole.log('file');
+			
+			
+		})
+	</script>
+</html>

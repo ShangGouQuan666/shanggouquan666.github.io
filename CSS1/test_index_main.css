@@ -1,0 +1,637 @@
+div.mainCenter {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+div.main_top {
+	width: 10rem;
+	height: 10rem;
+	background-color: #666;
+	/*
+		opacity: 0.6;
+		*/
+	border: 5px solid #666;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 15%;
+	overflow: hidden;
+
+}
+
+div.headpic {
+	width: 10rem;
+	height: 10rem;
+	background: url(https://tse2-mm.cn.bing.net/th/id/OIP.sYe7Z5yU7GxoyixxR1E2vgHaGi?pid=ImgDet&rs=1) no-repeat -80px -20px;
+	/*background-size: 30rem;*/
+
+	-webkit-background-size: 30rem;
+	-moz-background-size: 30rem;
+	background-size: 30rem;
+	-webkit-border-radius: 15rem;
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform 1.5s ease-out;
+	-moz-transition: -moz-transform 1.5s ease-out;
+	-o-transition: -o-transform 1.5s ease-out;
+	-ms-transition: -ms-transform 1.5s ease-out;
+	
+	
+}
+
+div.headpic:hover {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+div.main_bottom {
+	width: 50%;
+	height: 20%;
+	background-color: black;
+	margin: 0 auto;
+	opacity: 0.6;
+	border-radius: 5rem;
+	padding: 2rem;
+}
+
+div.main_bottom>p {
+	color: white;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+div.main_bottom>p>a {
+	color: white;
+	font-size: 1.25rem;
+	text-align: center;
+	transition: color 0.5s;
+}
+
+div.main_bottom>p>a:hover {
+	color: #00BFFF;
+}
+
+/*椭圆形收尾，必要时可自行删除该部分*/
+/*已修改，转换为纯白色背景*/
+/*正在进行flex弹性盒子化制作中，目前该阶段完全无视。*/
+/* div.zerobg {
+	margin-top: 30rem;
+	padding-top: 5rem;
+	position: absolute;
+	width: 100%;
+	
+	background-color: white;
+	z-index: 10;
+	border-radius: 12.5rem 12.5rem 0 0;
+}
+
+div.link {
+	width: 65%;
+	margin: 0 auto;
+}
+
+div.link>p {
+	font-size: 1.25rem;
+	color: #333;
+	font-weight: bolder;
+	display: block;
+	height: 2rem;
+	border-bottom: #999 dashed 2px;
+}
+
+
+div.link>ul.linkPic>li {
+	
+	width: 20rem;
+	height: 14rem;
+	margin: 2rem;
+	float: left;
+}
+
+div.link>ul.linkPic>li>a>div>img {
+	width: 20rem;
+	height: 13rem;
+}
+
+div.one {
+	position: relative;
+	display: inline-block;
+}
+
+span.name {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-weight: bold;
+	font-size: 1.25rem;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	opacity: 0.6;
+	display: none;
+}
+
+div.one:hover span.name {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 14rem;
+}
+
+div.input {
+	margin-top: 20rem;
+	width: 100%;
+	height: 30rem;
+	
+}
+
+div.input>p#posts {
+	font-size: 1.5rem;
+	display: block;
+	border-bottom: #666666 2px dashed;
+	margin-bottom: 3rem;
+}
+
+div.input>div.readerBooks {
+	margin: 0 auto;
+	width: 80%;
+	height: 25rem;
+	border: #999999 solid 1px;
+	border-radius: 10px;
+	padding: 2rem;
+}
+
+div.input>div.readerBooks>* {
+	margin-top: 1rem;
+}
+
+div.input>div.readerBooks>a>h3 {
+	margin-top: 1rem;
+}
+
+div.input>div.readerBooks>a>img {
+	float: right;
+	width: 28rem;
+	margin: 1rem;
+}
+
+footer {
+	width: 100%;
+	height: 10rem;
+	padding-top: 3rem;
+	text-align: center;
+	background-color: white;
+	z-index: 100 !important;
+	margin-top: 87rem;
+}
+ */
+/*  div.mainPost{
+		height: 62.5rem;
+		width: 100%;
+		background-color: white;
+	} 
+	div.posts{
+		width: 100%;
+		height: 30rem;
+	}
+	div.posts>p{
+		font-size: 1.25rem;
+		color: #333;
+		font-weight: bolder;
+		display: block;
+		height: 2rem;
+		border-bottom: #666666 dashed 2px;
+	}
+	*/
+
+/*
+@media (max-width: 1024px) {
+	div.link>ul.linkPic>li {
+		height: 5rem;
+		width: 8rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	div.link>ul.linkPic>li>a>div>img {
+		height: 5rem;
+		width: 8rem;
+	}
+
+	span.name {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		font-weight: bold;
+		font-size: 1.25rem;
+		text-align: center;
+		background: #000;
+		color: #fff;
+		opacity: 0.6;
+		display: none;
+	}
+
+	div.one:hover span.name {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 5rem;
+	}
+
+	div.input>div.readerBooks>a>img {
+		width: 18rem;
+
+	}
+
+	div.input {
+		margin-top: 15rem;
+		height: 38rem;
+	}
+
+	div.readerBooks {
+		height: 40rem;
+		border: #999999 solid 1px;
+		border-radius: 10px;
+	}
+
+	p#readerOne {
+		opacity: 0;
+	}
+
+	footer {
+		height: 15rem;
+		padding: 12rem;
+		margin-top: 80rem;
+	}
+}
+
+@media (max-width:768px) {
+	div.link>ul.linkPic>li {
+		height: 5rem;
+		width: 8rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	div.link>ul.linkPic>li>a>div>img {
+		height: 5rem;
+		width: 8rem;
+	}
+
+	span.name {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		font-weight: bold;
+		font-size: 1.25rem;
+		text-align: center;
+		background: #000;
+		color: #fff;
+		opacity: 0.6;
+		display: none;
+	}
+
+	div.one:hover span.name {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 5rem;
+	}
+
+	div.input>div.readerBooks>a>img {
+		width: 18rem;
+
+	}
+
+	div.input {
+		margin-top: 15rem;
+		height: 38rem;
+	}
+
+	div.readerBooks {
+		height: 40rem;
+		border: #999999 solid 1px;
+		border-radius: 10px;
+	}
+
+	p#readerOne {
+		opacity: 0;
+	}
+
+	footer {
+		height: 15rem;
+		padding: 12rem;
+		margin-top: 80rem;
+	}
+}
+
+@media (max-width:540px) {
+	div.input {
+		margin-top: 20rem;
+		height: 38rem;
+	}
+
+	div.input>div.readerBooks>a>img {
+		width: 12rem;
+	}
+
+	div.readerBooks {
+		height: 30rem;
+		border: #999999 solid 1px;
+		border-radius: 10px;
+	}
+
+	footer {
+		height: 15rem;
+		padding-top: 15rem;
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 82rem;
+	}
+}
+
+@media (max-width:480px) {
+	body{
+		overflow-x: hidden;
+	}
+	div.link>ul.linkPic>li {
+		
+		width: 18rem;
+		height: 12rem;
+		margin-top: 2rem;
+		margin-bottom: 0;
+		float: left;
+	}
+
+	div.link>ul.linkPic>li>a>div>img {
+		width: 16rem;
+		height: 10rem;
+	}
+
+	div.input {
+		margin-top: 20rem;
+		height: 38rem;
+	}
+
+	div.input>div.readerBooks>a>img {
+		width: 10rem;
+	}
+
+	div.readerBooks {
+		height: 30rem;
+		border: #999999 solid 1px;
+		border-radius: 10px;
+	}
+
+	p#readerOne {
+		opacity: 1;
+	}
+
+	footer {
+		height: 30rem;
+		padding-top: 28rem;
+		margin-top: 90rem;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (max-width:480px) {
+	div.zerobg {
+		width: 100%;
+		padding-left: 2rem;
+	}
+
+	p#readerOne,
+	p#readerBottom {
+		opacity: 0;
+	}
+
+	footer {
+		width: 100%;
+	}
+}
+@media (max-width:400px) {
+	div.zerobg{
+		width: 105%;
+	}
+	div.input>div.readerBooks>a>img {
+		width: 8.5rem;
+		margin: 0;
+		margin-bottom: 2rem;
+		padding: 0;
+	}
+}
+@media (max-width:390px){
+	div.main_top{
+		margin-top: 50%;
+	}
+	div.main_bottom{
+		
+		margin-top: 10%;
+		width: 80%;
+		border-radius: 10%;
+	}
+	div.main_bottom > p{
+		font-size: 1rem;
+	}
+
+	div.zerobg{
+		width: 108%;
+		padding-left: 0;
+		padding-top: 30%;
+	}
+	div.input>div.readerBooks>a>img{
+		width: 9.5rem;
+	}
+	footer{
+		width: 100.2%;
+	}
+	
+}
+*/
+
+/* div.zerobg {
+	margin-top: 30rem;
+	padding-top: 5rem;
+	position: absolute;
+	width: 100%;
+	
+	background-color: white;
+	z-index: 10;
+	border-radius: 12.5rem 12.5rem 0 0;
+} 
+div.link {
+	width: 65%;
+	margin: 0 auto;
+}
+
+div.link>p {
+	font-size: 1.25rem;
+	color: #333;
+	font-weight: bolder;
+	display: block;
+	height: 2rem;
+	border-bottom: #999 dashed 2px;
+}
+
+*/
+.zerobg{
+	background-color: white;
+	padding: 5%;
+	border-radius: 15% 15% 0 0 ;
+}
+
+div.one {
+	position: relative;
+	display: inline-block;
+}
+
+span.name {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-weight: bold;
+	font-size: 1.25rem;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	opacity: 0.6;
+	display: none;
+}
+
+div.one:hover span.name {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 16rem;
+}
+.mainCenter > #Clock{
+	opacity: 0;
+	margin-left: 48%;
+}
+.link > p{
+	font: bolder 18px;
+	
+}
+ul.linkPic{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.linkPic > li{
+	width: 30%;
+	margin: 2%;
+	margin-left: 5%;
+}
+.linkPic > li > a > .one > img{
+	width: 100%;
+	
+}
+
+div.input{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.readerBooks{
+	width: 100%;
+	height: 80%;
+	border: solid #333 2px;
+	border-radius: 15px;
+	padding: 3%;
+	display: flex;
+	
+}
+.readerBooks > a > img{
+	width: 50%;
+	float: right;
+}
+.BooksOne {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.BooksOne > p{
+	font: bolder 18px;
+}
+
+footer{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	padding: 3%;
+}
+
+@media (max-width:375px) {
+	body{
+		overflow-x: hidden;
+	}
+	.main_top{
+		position: absolute;
+		left: 30%;
+		top: 20%;
+	}
+	div.main_bottom{
+		opacity: 0;
+	}
+	div.one:hover span.name {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 12rem;
+	}
+	.zerobg{
+		margin-top: 80%;
+		border-radius: 150px 150px 0 0 ;
+		padding: 10%;
+		padding-top: 20%;
+	}
+	.link {
+		
+		display: flex;
+		flex-direction: column;
+	}
+	.link > p{
+		font-size: 20px;
+		margin-left: 10%;
+	}
+	
+	.linkPic{
+		margin-bottom: 5%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.linkPic > li{
+		
+		width: 100%;
+		
+	}
+	.linkPic > li > a > div > img{
+		width: 100%;
+	}
+	.readerBooks{
+		height: 350px;
+	}
+	.readerBooks > a >img{
+		width: 100%;
+		
+	}
+	.readerBooks > .BooksOne{
+		width: 95%;
+		position: absolute;
+		top: 1680px;	
+		
+	}
+}
