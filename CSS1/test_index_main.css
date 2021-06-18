@@ -577,6 +577,10 @@ footer{
 		overflow-x: hidden;
 		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
 		background-size: 110%;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: -1;
 	}
 	.main_top{
 		position: absolute;
@@ -646,6 +650,10 @@ footer{
 		overflow-x: hidden;
 		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
 		background-size: 110%;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: -1;
 	}
 	.main_top{
 		opacity: 0;
@@ -662,6 +670,10 @@ footer{
 		overflow-x: hidden;
 		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
 		background-size: 110%;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: -1;
 	}
 	.main_top{
 		opacity: 0;
@@ -678,6 +690,10 @@ footer{
 		overflow-x: hidden;
 		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
 		background-size: 110%;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: -1;
 	}
 	.main_top{
 		opacity: 0;
@@ -694,6 +710,10 @@ footer{
 		overflow-x: hidden;
 		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
 		background-size: 110%;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: -1;
 	}
 	.main_top{
 		position: absolute;
