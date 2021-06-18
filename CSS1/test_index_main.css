@@ -575,6 +575,8 @@ footer{
 @media (max-width:480px){
 	body{
 		overflow-x: hidden;
+		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
+		background-size: 100%;
 	}
 	.main_top{
 		position: absolute;
@@ -639,6 +641,11 @@ footer{
 	}
 }
 @media (max-width:450px){
+	body{
+		overflow-x: hidden;
+		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
+		background-size: 100%;
+	}
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
@@ -647,6 +654,11 @@ footer{
 	}
 }
 @media (max-width:460px){
+	body{
+		overflow-x: hidden;
+		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
+		background-size: 100%;
+	}
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
@@ -655,6 +667,11 @@ footer{
 	}
 }
 @media (max-width:420px){
+	body{
+		overflow-x: hidden;
+		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
+		background-size: 100%;
+	}
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
@@ -665,6 +682,8 @@ footer{
 @media (max-width:375px) {
 	body{
 		overflow-x: hidden;
+		background: url(https://uploadfile.bizhizu.cn/up/17/68/d9/1768d9a10559ae82f1b6f6d9e003f667.jpg) no-repeat;
+		background-size: 100%;
 	}
 	.main_top{
 		position: absolute;
