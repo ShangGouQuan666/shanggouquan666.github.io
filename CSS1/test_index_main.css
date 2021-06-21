@@ -14,9 +14,9 @@ div.main_top {
 	border: 5px solid #666;
 	border-radius: 50%;
 	margin: 0 auto;
-	margin-top: 15%;
+	margin-top: 10%;
 	overflow: hidden;
-
+	opacity: 0.95;
 }
 
 div.headpic {
@@ -51,15 +51,22 @@ div.main_bottom {
 	height: 20%;
 	background-color: black;
 	margin: 0 auto;
-	opacity: 0.6;
+	opacity: 0.5;
 	border-radius: 5rem;
 	padding: 2rem;
+	margin-top: 5%;
+	opacity: 0;
+}
+.main_bottom:hover{
+	opacity: 0.6;
+	transition: 0.5s;
 }
 
 div.main_bottom>p {
 	color: white;
 	font-size: 1.25rem;
 	text-align: center;
+	display: block;
 }
 
 div.main_bottom>p>a {
@@ -485,8 +492,16 @@ div.link>p {
 	background-color: white;
 	padding: 5%;
 	border-radius: 15% 15% 0 0 ;
+	margin-top: 5%;
 }
-
+div.upto > p{
+	font-size: 18px;
+	color: white;
+}
+.up_up{
+	width: 100px;
+	margin-left: 30px;
+}
 div.one {
 	position: relative;
 	display: inline-block;
@@ -517,8 +532,8 @@ div.one:hover span.name {
 	margin-left: 48%;
 }
 .link > p{
-	font: bolder 18px;
-	
+	font-size: 25px;
+	border-bottom: #666666 dashed 2px;
 }
 ul.linkPic{
 	display: flex;
@@ -542,7 +557,11 @@ div.input{
 	flex-direction: column;
 	
 }
-
+.input > p{
+	font-size: 25px;
+	border-bottom: #666666 dashed 2px;
+	margin-bottom: 2%;
+}
 
 .readerBooks{
 	width: 100%;
@@ -564,6 +583,21 @@ div.input{
 }
 .BooksOne > p{
 	font: bolder 18px;
+}
+div.topping{
+	width: 80px;
+	height: 50px;
+	background-color: wheat;
+	text-align: center;
+	line-height: 48px;
+	border: #999999 solid 2px;
+	border-radius: 15%;
+	position: fixed;
+	bottom: 5%;
+	right: 0%;
+}
+.topping > a{
+	display: block;
 }
 
 footer{
@@ -588,7 +622,11 @@ footer{
 		top: 20%;
 		opacity: 0;
 	}
+	
 	div.main_bottom{
+		opacity: 0;
+	}
+	div.main_bottom:hover{
 		opacity: 0;
 	}
 	div.one:hover span.name {
@@ -641,8 +679,14 @@ footer{
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
-		top: 1960px;	
+		top: 2160px;	
 		
+	}
+	div.topping{
+		opacity: 0;
+	}
+	p#readerBottom{
+		opacity: 0;
 	}
 }
 @media (max-width:450px){
@@ -661,8 +705,14 @@ footer{
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
-		top: 1860px;	
+		top: 2150px;	
 		
+	}
+	div.topping{
+		opacity: 0;
+	}
+	p#readerBottom{
+		opacity: 0;
 	}
 }
 @media (max-width:460px){
@@ -681,8 +731,14 @@ footer{
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
-		top: 1890px;	
+		top: 2100px;	
 		
+	}
+	div.topping{
+		opacity: 0;
+	}
+	p#readerBottom{
+		opacity: 0;
 	}
 }
 @media (max-width:420px){
@@ -701,8 +757,14 @@ footer{
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
-		top: 1800px;	
+		top: 1980px;	
 		
+	}
+	div.topping{
+		opacity: 0;
+	}
+	p#readerBottom{
+		opacity: 0;
 	}
 }
 @media (max-width:375px) {
@@ -770,7 +832,13 @@ footer{
 	.readerBooks > .BooksOne{
 		width: 95%;
 		position: absolute;
-		top: 1680px;	
+		top: 1820px;	
 		
+	}
+	div.topping{
+		opacity: 0;
+	}
+	p#readerBottom{
+		opacity: 0;
 	}
 }
