@@ -602,6 +602,7 @@ div.input {
 }
 
 div.topping {
+	/* 
 	width: 80px;
 	height: 50px;
 	background-color: wheat;
@@ -609,13 +610,36 @@ div.topping {
 	line-height: 48px;
 	border: #999999 solid 2px;
 	border-radius: 15%;
+	 */
+	width: 10%;
+	height: 20%;
+	transform: rotate(-45deg);
 	position: fixed;
-	bottom: 5%;
-	right: 1%;
+	bottom: 0%;
+	right: -5%;
+	transition: 0.5s;
 }
 
 .topping>a {
 	display: block;
+	font-size: 0px;
+	width: 100%;
+	height: 100%;
+	
+	background: url(../image/yomemi.png) no-repeat;
+	background-size: 100%;
+	transition: 0.3s;
+}
+.topping>a:hover{
+	font-size: 16px;
+	/* background: url(../image/萌实.png) no-repeat;
+	background-size: 100%; */
+}
+.topping:hover{
+	transform: rotate(0deg);
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
 }
 
 footer {
