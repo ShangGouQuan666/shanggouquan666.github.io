@@ -23,12 +23,14 @@ window.addEventListener('mouseup', (e) => {
 		if (finalOffset >= 430 && finalOffset <= 450) {
 			// pass
 			captcha.classList.add('passed')
+			alert('认证成功')
 		} else {
 			// failed
 			captcha.style.setProperty('--moved', '0px')
+			alert('认证失败')
 		}
 
 		shouldMove = false
-		alert('认证成功')
+		
 	}
 })
