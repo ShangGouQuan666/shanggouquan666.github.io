@@ -24,7 +24,7 @@
 	</head>
 	<body>
 		<div class="top">
-			<h1>老三の家</h1>
+			<h1><a href="https://shanggouquan666.github.io/index.html">老三の家</a></h1>
 			<ul class="top_right">
 				<li><a href="">菜单</a></li>
 				<li><a href="">搜索</a></li>
@@ -103,7 +103,7 @@
 		</div>
 
 		<div class="topping">
-			<a href="#">回到顶部</a>
+			<a href="javascript:;" id="backTop">回到顶部</a>
 		</div>
 
 		<footer>
@@ -112,6 +112,7 @@
 		</footer>
 
 	</body>
+	<script src="js/jquery1.42.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		var btns = document.getElementById("btn");
 		var divs = document.getElementById("MyQQ");
@@ -125,5 +126,19 @@
 		btns.onmouseout = function() {
 			divs.style.display = "none";
 		}
+	
+		//jQuery实现页面缓慢跳转
+		$(document).ready(function(){
+		    $(window).scroll(function(){                            
+		        if($(window).scrollTop()<=100){//当前窗口向下移动对应像素时触发
+		            $(".topping").fadeOut(500);//0.5S动效显示
+		        }else{
+		            $(".topping").fadeIn(500);//0.5S动效显示
+		        }
+		    })
+		    $(".topping").click(function(){
+		        $('body,html').animate({scrollTop:0},500);//回归body顶部动画计时器设置
+		    })
+		});
 	</script>
 </html>
