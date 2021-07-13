@@ -1,0 +1,60 @@
+body{
+	background: none;
+}
+
+header{
+	width: 100%;
+	height: 5rem;
+	background: url(../imagesUser/魔理沙.jpg) no-repeat ;
+	background-position: top center;
+	background-size: 100%;
+}
+header > h1{
+	color: white;
+	font-size: .5rem;
+	text-align: center;
+	margin-top: 3rem;
+	border: #333333;
+	text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+header > a,header > p{
+	float: left;
+	line-height: .5rem;
+	display: block;
+}
+header > a{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: white;
+	margin-left: 28%;
+}
+
+header > a > .img{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: url(../image/大地女神.png) no-repeat -0.5rem -0.3rem;
+	background-size: 700%;
+}
+header > p{
+	color: white;
+	text-shadow: 0.0625rem 0.0625rem 0.0625rem black;
+	margin-left: 0.2rem;
+}
+main{
+	width: 50%;
+	height: 100%;
+	margin-bottom: 2rem;
+}
+main > p{
+	font-size: .25rem;
+}
+main > img{
+	width: 9.5rem;
+}
+#PicText{
+	opacity: 0.5;
+	font-size: 0.15rem;
+	text-align: center;
+}

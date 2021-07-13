@@ -665,6 +665,7 @@ footer {
 		left: 30%;
 		top: 20%;
 		opacity: 0;
+		z-index: 20;
 	}
 
 	div.main_bottom {
@@ -725,7 +726,10 @@ footer {
 	.readerBooks {
 		height: 420px;
 	}
-
+	
+	.readerBooks>a{
+		width: 100%;
+	}
 	.readerBooks>a>img {
 		width: 100%;
 
@@ -745,6 +749,7 @@ footer {
 	p#readerBottom {
 		opacity: 0;
 	}
+	
 }
 
 @media (max-width:450px) {
@@ -838,6 +843,9 @@ footer {
 	p#readerBottom {
 		opacity: 0;
 	}
+	footer{
+		margin-top: 0;
+	}
 }
 
 @media (max-width:375px) {
@@ -926,5 +934,8 @@ footer {
 
 	p#readerBottom {
 		opacity: 0;
+	}
+	footer{
+		margin-top: 0;
 	}
 }
