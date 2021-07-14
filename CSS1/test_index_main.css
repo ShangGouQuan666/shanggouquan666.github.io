@@ -647,6 +647,7 @@ footer {
 	background-color: white;
 	text-align: center;
 	padding: 3%;
+	font-size: .3rem;
 }
 
 @media (max-width:480px) {
