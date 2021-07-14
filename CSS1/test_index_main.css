@@ -498,6 +498,11 @@ div.link>p {
 	padding-right: 20%;
 }
 
+.upto{
+	padding: 1%;
+	border-radius: 20%;
+	background-color: rgba(0,0,0,0.5);
+}
 div.upto>p {
 	font-size: 18px;
 	color: white;
